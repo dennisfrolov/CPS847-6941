@@ -1,0 +1,8 @@
+language: python
+python: 2.7
+install:
+- pip install codecov
+script:
+- coverage run SixTimes.py
+after_success:
+- codecov
