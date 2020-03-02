@@ -6,3 +6,5 @@ script:
 - coverage run SixTimes.py
 after_success:
 - codecov
+addons:
+    ssh_known_hosts: moon.scs.ryerson.ca
